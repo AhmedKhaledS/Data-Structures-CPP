@@ -4,10 +4,15 @@
 
 1495417055 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\hashfunction.h
 
-1495417128 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\matrixhashfunction.cpp
+1495417712 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\matrixhashfunction.cpp
 	"MatrixHashFunction.h"
 	<iostream>
 
 1495417055 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\matrixhashfunction.h
 	<HashFunction.h>
+
+1495417154 source:c:\users\ahmed khaled\git\data-structures-cpp\main.cpp
+	<iostream>
+	"HashFunction.h"
+	"MatrixHashFunction.h"
 

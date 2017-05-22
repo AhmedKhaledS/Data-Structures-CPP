@@ -11,7 +11,6 @@ HashFunction* MatrixHashFunction::getInstance()
 {
     if (instance == nullptr)
     {
-        std::cout << "Done";
         instance = new MatrixHashFunction();
     }
 }
