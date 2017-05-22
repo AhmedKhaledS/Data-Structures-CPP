@@ -11,14 +11,21 @@
 1495428456 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\matrixhashfunction.h
 	<HashFunction.h>
 
-1495417154 source:c:\users\ahmed khaled\git\data-structures-cpp\main.cpp
+1495458631 source:c:\users\ahmed khaled\git\data-structures-cpp\main.cpp
 	<iostream>
 	"HashFunction.h"
 	"MatrixHashFunction.h"
+	"Utility.h"
+	"PairingHashFucntion.h"
+	"QuadraticSpaceTable.h"
+	"UniversalHasher.h"
 
-1495446557 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\pairinghashfucntion.cpp
+1495458156 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\pairinghashfucntion.cpp
 	"PairingHashFucntion.h"
 	<random>
+	<cstdlib>
+	<ctime>
+	<iostream>
 
 1495446582 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\pairinghashfucntion.h
 	"HashFunction.h"
@@ -28,17 +35,50 @@
 
 1495428891 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\universaldata.h
 
-1495446421 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\universalhasher.cpp
+1495458497 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\universalhasher.cpp
 	"UniversalHasher.h"
 	"Utility.h"
+	"FileReader.h"
+	<iostream>
+	<algorithm>
 
-1495446197 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\universalhasher.h
+1495458387 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\universalhasher.h
 	"UniversalData.h"
 	"PairingHashFucntion.h"
+	"UniversalHashTable.h"
+	"QuadraticSpaceTable.h"
+	<vector>
+	<map>
+	<string>
 
 1495446548 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\utility.h
 
-1495445022 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\utility.cpp
+1495446705 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\utility.cpp
 	"Utility.h"
-	<math.h>
+	<cmath>
+	<iostream>
+
+1495452748 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\universalhashtable.cpp
+	"UniversalHashTable.h"
+
+1495453071 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\universalhashtable.h
+	"vector"
+
+1495456430 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\quadraticspacetable.cpp
+	"QuadraticSpaceTable.h"
+	"FileReader.h"
+	<iostream>
+
+1495452957 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\quadraticspacetable.h
+	<string>
+	<UniversalHashTable.h>
+
+1495449771 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\util\filereader.h
+	<vector>
+	<string>
+
+1495450044 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\util\filereader.cpp
+	"FileReader.h"
+	<fstream>
+	<sstream>
 
