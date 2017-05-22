@@ -6,12 +6,18 @@
 class PairingHashFucntion : public HashFunction
 {
     public:
-        static HashFunction* getInstance();
+        PairingHashFucntion(int _size, long long int _prime);
+        PairingHashFucntion();
         void genrateRandomHashFunction() override;
         int hash(long long int key) override;
+        void setTableSize(int _size);
+        int getTableSize();
+        void setPrimeNumber(int _prime);
+        int getPrimeNumber();
     private:
-        PairingHashFucntion();
-        static PairingHashFucntion* instance;
+        int tableSize;
+        long long int primeNumber;
+        int a, b;
 };
 
 #endif // PAIRINGHASHFUCNTION_H
