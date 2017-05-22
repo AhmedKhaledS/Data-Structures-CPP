@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1495416915 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\hashfunction.cpp
+	"HashFunction.h"
+
+1495417055 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\hashfunction.h
+
+1495417128 source:c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\matrixhashfunction.cpp
+	"MatrixHashFunction.h"
+	<iostream>
+
+1495417055 c:\users\ahmed khaled\git\data-structures-cpp\hashing\universalhashing\matrixhashfunction.h
+	<HashFunction.h>
+
